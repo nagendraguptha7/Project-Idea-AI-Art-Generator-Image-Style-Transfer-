@@ -1,2 +1,14 @@
-# Project-Idea-AI-Art-Generator-Image-Style-Transfer-
-This project involves creating an AI-powered image style transfer model, which allows you to apply the style of one image (like a painting) to the content of another (such as a photo). It uses Deep Learning and a pre-trained model like VGG16 to perform the transfer.
+# AI Art Generator - Style Transfer
+
+This project performs neural style transfer using a pre-trained VGG19 model to blend the style of one image with the content of another.
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python style_transfer.py
+```
+
+Place your `content.jpg` and `style.jpg` images in the root directory before running.
+
+## Output
+The result will be saved as `output.png`.
